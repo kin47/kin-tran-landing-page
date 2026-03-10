@@ -1,4 +1,4 @@
-import { Briefcase, CalendarRange, Sparkles } from "lucide-react";
+import { Briefcase, CalendarRange } from "lucide-react";
 
 const experiences = [
 	{
@@ -50,7 +50,7 @@ export default function Experience() {
 					<div className="absolute left-[21px] top-4 hidden h-[calc(100%-2rem)] w-px bg-gradient-to-b from-blue-400/70 via-cyan-400/40 to-transparent md:block" />
 
 					<div className="space-y-6">
-						{experiences.map((item, index) => (
+						{experiences.map((item, _) => (
 							<div
 								key={`${item.period}-${item.role}`}
 								className="group relative rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/10"
