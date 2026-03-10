@@ -15,7 +15,7 @@ export default function AboutMe() {
         </h1>
         <div className="max-w-7xl flex flex-col lg:flex-row py-4 md:py-6 items-center justify-center lg:space-x-16 space-y-4">
             <img
-                src="src/assets/self-photo.jpg"
+                src="assets/self-photo.jpg"
                 className="w-2/3 md:w-1/3 rounded"
                 alt="Minh Tran"
             />

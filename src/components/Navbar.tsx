@@ -58,7 +58,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-1 md:space-x-3 group cursor-pointer">
             <div>
               <img
-                src="src/assets/logo.png"
+                src="assets/logo.png"
                 className="w-6 sm:w-8"
                 alt="Minh Tran"
               />
